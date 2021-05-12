@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* header Started */
+header {
+    padding: 25px 35px 25px 50px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo-img-header{
+    width: 120px;
+    cursor: pointer;
+    
+}
+.menu-item-header {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 15px;
+    color:#b9b8b5;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-item-header:hover {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 4px solid #5243c0;
+    font-weight: 600;
+    color:black;
+}
+#header-btn{
+    cursor: pointer;
+    background-color: #ffd8db;
+    font-size: 10px;
+    border: none;
+    color: #5243c0;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+#header-btn:hover {
+    color: white;    
+
+}
+
+/* header complete */
+/* main started */
+
+main {
+ margin-left:80px;
+ display: flex;
+ 
+ justify-content: space-evenly;
+
+}
+#section-left {
+    width: 30%;
+    margin-top: auto;
+}
+
+  /* article 1 */
+
+#article-one-heading {
+    margin: 0;
+    line-height: 1.2;
+    padding: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 50px;
+}
+#blue-sq {
+    padding: 4px;
+    border: none;
+    background-color:#5243cd ;
+}
+#article-one-para {
+    margin-top:20px ;
+    margin-bottom: 25px;
+    line-height: 1.8;                
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+#article-one-btn {
+    background-color: #5243cd;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#article-one-btn:hover {
+    background-color: white;
+    color:#5243cd;
+    
+}
+#btn-icon-div {
+    display: flex;
+    align-items: center;
+}
+.article-one-icon {
+    width: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+   /* article 2 */
+   
+#article-two{
+    width: 50vh;
+    margin-top: 70px;  
+}
+.checkbox-div {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F6F6;  
+    padding: 7px ;
+    margin: 10px 0px;
+    border-radius: 10px;     
+}
+.checkbox-div:hover {
+    background-color: white;
+    box-shadow: 0 0 12px #ccc;
+}
+#checkbox-name {
+    font-weight: 600;
+    width: 38%;
+}
+#checkbox-date {
+    color: #b9b8b5;
+}
+#checkbox-btn {
+    background-color: #FFB5C9;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+#checkbox-btn-second {
+    background-color: #FD6534;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+#checkbox-btn-third {
+    background-color: #9FD196;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+#checkbox-btn-fourth {
+    background-color: #FFE4A1;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* second section (image)*/
+
+#section-right {
+    width:50%;
+    }
+#section-right-fig {
+    
+    margin: 0px;
+    
+}
+#section-right-fig-img {
+    width:100%;
+    margin-top:20px ;
+}
